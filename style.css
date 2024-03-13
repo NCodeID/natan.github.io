@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("images/Person.JPG") ;
+    background-size: cover;
+    background-position: center;
+    image-resolution: from-image;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+li{
+    position: relative;
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+ul{
+    padding: 0;
+}
+a{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    color: #fff;
+    text-decoration: none;
+    background: #191919;
+    border-radius: 25px;
+
+}
+span{
+    font-size: 20px;
+}
